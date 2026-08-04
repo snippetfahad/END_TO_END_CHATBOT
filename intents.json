@@ -1,0 +1,792 @@
+[
+  {
+    "tag": "football",
+    "patterns": [
+      "Tell me about football",
+      "What is football?",
+      "Explain football",
+      "How is football played?",
+      "Football rules"
+    ],
+    "responses": [
+      "Football is played between two teams of 11 players aiming to score goals.",
+      "Football is the world's most popular sport.",
+      "The team with the most goals at the end of the match wins."
+    ]
+  },
+  {
+    "tag": "cricket",
+    "patterns": [
+      "Tell me about cricket",
+      "What is cricket?",
+      "Cricket rules",
+      "How is cricket played?",
+      "Explain cricket"
+    ],
+    "responses": [
+      "Cricket is played between two teams of 11 players using a bat and ball.",
+      "The objective is to score more runs than the opposing team.",
+      "Cricket has formats like Test, ODI, and T20."
+    ]
+  },
+  {
+    "tag": "basketball",
+    "patterns": [
+      "What is basketball?",
+      "Tell me about basketball",
+      "Basketball rules",
+      "How do you play basketball?",
+      "Explain basketball"
+    ],
+    "responses": [
+      "Basketball is played by two teams of five players.",
+      "The objective is to score points by shooting the ball into the opponent's basket.",
+      "Each successful basket scores two or three points depending on the shot."
+    ]
+  },
+  {
+    "tag": "tennis",
+    "patterns": [
+      "Tell me about tennis",
+      "What is tennis?",
+      "How is tennis played?",
+      "Tennis rules",
+      "Explain tennis"
+    ],
+    "responses": [
+      "Tennis is played with rackets and a ball on a court.",
+      "Players score points by hitting the ball over the net.",
+      "Matches can be played in singles or doubles."
+    ]
+  },
+  {
+    "tag": "badminton",
+    "patterns": [
+      "Tell me about badminton",
+      "What is badminton?",
+      "Badminton rules",
+      "How is badminton played?",
+      "Explain badminton"
+    ],
+    "responses": [
+      "Badminton is played using rackets and a shuttlecock.",
+      "The objective is to score points by landing the shuttlecock in the opponent's court.",
+      "It can be played as singles or doubles."
+    ]
+  },
+  {
+    "tag": "volleyball",
+    "patterns": [
+      "Tell me about volleyball",
+      "What is volleyball?",
+      "Volleyball rules",
+      "How is volleyball played?",
+      "Explain volleyball"
+    ],
+    "responses": [
+      "Volleyball is played between two teams separated by a net.",
+      "Teams score by grounding the ball on the opponent's side.",
+      "Each team is allowed three touches before returning the ball."
+    ]
+  },
+  {
+    "tag": "greetings",
+    "patterns": [
+      "Hello",
+      "Hi there",
+      "Hey",
+      "Good morning"
+    ],
+    "responses": [
+      "Hello! How can I help you today?",
+      "Hi there! What would you like to talk about?",
+      "Hey! I am ready to chat."
+    ]
+  },
+  {
+    "tag": "goodbye",
+    "patterns": [
+      "Goodbye",
+      "Bye",
+      "See you later",
+      "Talk to you later"
+    ],
+    "responses": [
+      "Goodbye! Have a great day.",
+      "See you later! Come back anytime.",
+      "Bye! It was nice talking to you."
+    ]
+  },
+  {
+    "tag": "thanks",
+    "patterns": [
+      "Thank you",
+      "Thanks",
+      "I appreciate it",
+      "Thanks a lot"
+    ],
+    "responses": [
+      "You are welcome!",
+      "Glad I could help.",
+      "Anytime! I am here for you."
+    ]
+  },
+  {
+    "tag": "help",
+    "patterns": [
+      "I need help",
+      "Can you help me?",
+      "I need assistance",
+      "Please help me"
+    ],
+    "responses": [
+      "Sure! I can chat, answer questions, and share information.",
+      "I am here to help. Ask me anything.",
+      "Of course! What do you need help with?"
+    ]
+  },
+  {
+    "tag": "name",
+    "patterns": [
+      "What is your name?",
+      "Who are you?",
+      "Tell me your name",
+      "What should I call you?"
+    ],
+    "responses": [
+      "I am a chatbot created to answer your questions.",
+      "You can call me Chatbot.",
+      "I am your friendly assistant."
+    ]
+  },
+  {
+    "tag": "creator",
+    "patterns": [
+      "Who made you?",
+      "Who created you?",
+      "Who developed you?",
+      "Who built you?"
+    ],
+    "responses": [
+      "I was created to help with sports and general questions.",
+      "A developer made me to be your chatbot.",
+      "I was built by a chatbot developer."
+    ]
+  },
+  {
+    "tag": "age",
+    "patterns": [
+      "How old are you?",
+      "What is your age?",
+      "When were you created?",
+      "Age?"
+    ],
+    "responses": [
+      "I do not have an age like humans.",
+      "I was created to chat with you anytime.",
+      "I am as old as my last update."
+    ]
+  },
+  {
+    "tag": "weather",
+    "patterns": [
+      "What is the weather like?",
+      "Is it sunny?",
+      "Weather today",
+      "How is the weather?"
+    ],
+    "responses": [
+      "I cannot see the weather, but I hope it is nice where you are.",
+      "Weather information is not available to me right now.",
+      "I wish the weather is pleasant for you."
+    ]
+  },
+  {
+    "tag": "music",
+    "patterns": [
+      "Tell me about music",
+      "What is music?",
+      "Do you like music?",
+      "Recommend music"
+    ],
+    "responses": [
+      "Music is a way to enjoy rhythm and melodies.",
+      "People love different styles like pop, rock, and classical.",
+      "Music can make you feel happy or relaxed."
+    ]
+  },
+  {
+    "tag": "movies",
+    "patterns": [
+      "Tell me about movies",
+      "What is a movie?",
+      "Recommend a movie",
+      "Do you watch movies?"
+    ],
+    "responses": [
+      "Movies are stories shown on screen for entertainment.",
+      "People enjoy comedies, action, and dramas.",
+      "A good movie can be fun, inspiring, or thrilling."
+    ]
+  },
+  {
+    "tag": "travel",
+    "patterns": [
+      "Tell me about travel",
+      "I want to travel",
+      "Where should I go?",
+      "Travel tips"
+    ],
+    "responses": [
+      "Travel can be a great way to learn about new cultures.",
+      "A good destination depends on what you enjoy.",
+      "Planning ahead makes travel easier and more fun."
+    ]
+  },
+  {
+    "tag": "food",
+    "patterns": [
+      "Tell me about food",
+      "What is good food?",
+      "Recommend a dish",
+      "Favorite food"
+    ],
+    "responses": [
+      "Food is what keeps people healthy and happy.",
+      "There are many delicious dishes around the world.",
+      "Eating a balanced meal is always a good idea."
+    ]
+  },
+  {
+    "tag": "cooking",
+    "patterns": [
+      "Tell me about cooking",
+      "How do I cook?",
+      "Cooking tips",
+      "What can I cook?"
+    ],
+    "responses": [
+      "Cooking is fun when you start with simple recipes.",
+      "A good recipe and fresh ingredients help a lot.",
+      "Practice and patience make cooking easier."
+    ]
+  },
+  {
+    "tag": "exercise",
+    "patterns": [
+      "Tell me about exercise",
+      "How do I exercise?",
+      "Workout tips",
+      "Best exercises"
+    ],
+    "responses": [
+      "Regular exercise keeps your body strong and healthy.",
+      "Try a mix of stretching, cardio, and strength training.",
+      "Start slowly and build up your activity over time."
+    ]
+  },
+  {
+    "tag": "fitness",
+    "patterns": [
+      "What is fitness?",
+      "How do I stay fit?",
+      "Fitness tips",
+      "Fitness advice"
+    ],
+    "responses": [
+      "Fitness is about staying active and healthy.",
+      "A balanced routine with movement and rest works well.",
+      "Small daily exercises can improve your fitness."
+    ]
+  },
+  {
+    "tag": "nutrition",
+    "patterns": [
+      "What is nutrition?",
+      "Tell me about nutrition",
+      "Healthy eating tips",
+      "Good nutrition"
+    ],
+    "responses": [
+      "Nutrition is eating the right foods for your body.",
+      "Fruits, vegetables, proteins, and whole grains are helpful.",
+      "A balanced diet supports healthy energy and strength."
+    ]
+  },
+  {
+    "tag": "sleep",
+    "patterns": [
+      "How much sleep do I need?",
+      "Tell me about sleep",
+      "Sleep tips",
+      "Why is sleep important?"
+    ],
+    "responses": [
+      "Sleep helps your mind and body recover.",
+      "Adults usually need about 7 to 9 hours of sleep.",
+      "A regular bedtime routine can improve sleep quality."
+    ]
+  },
+  {
+    "tag": "study",
+    "patterns": [
+      "How do I study?",
+      "Study tips",
+      "Tell me about studying",
+      "How to learn better?"
+    ],
+    "responses": [
+      "Study in short sessions and take breaks regularly.",
+      "Organize your notes and focus on one topic at a time.",
+      "Practice and review help with remembering information."
+    ]
+  },
+  {
+    "tag": "technology",
+    "patterns": [
+      "Tell me about technology",
+      "What is technology?",
+      "Technology trends",
+      "Tech advice"
+    ],
+    "responses": [
+      "Technology helps people solve problems and connect with others.",
+      "New gadgets and software are always changing the world.",
+      "Use technology responsibly and safely."
+    ]
+  },
+  {
+    "tag": "internet",
+    "patterns": [
+      "Tell me about the internet",
+      "What is the internet?",
+      "Internet facts",
+      "How does the internet work?"
+    ],
+    "responses": [
+      "The internet connects people and information around the world.",
+      "It works through networks and servers to share data.",
+      "Safety online is important, so use strong passwords and good habits."
+    ]
+  },
+  {
+    "tag": "smartphone",
+    "patterns": [
+      "Tell me about smartphones",
+      "Are smartphones useful?",
+      "Smartphone tips",
+      "What is a smartphone?"
+    ],
+    "responses": [
+      "Smartphones can do many tasks like calls, messages, and apps.",
+      "They help you stay connected, but use them in moderation.",
+      "A good smartphone depends on what you need most."
+    ]
+  },
+  {
+    "tag": "social_media",
+    "patterns": [
+      "Tell me about social media",
+      "What is social media?",
+      "Is social media good?",
+      "Social media advice"
+    ],
+    "responses": [
+      "Social media lets people share ideas and stay in touch.",
+      "It can be fun, but be careful with what you post.",
+      "Use social media to learn and connect positively."
+    ]
+  },
+  {
+    "tag": "news",
+    "patterns": [
+      "Tell me about news",
+      "What is the news?",
+      "News today",
+      "Why is news important?"
+    ],
+    "responses": [
+      "News keeps people informed about events and stories.",
+      "It is important to check reliable sources.",
+      "Good news reading helps you understand what is happening in the world."
+    ]
+  },
+  {
+    "tag": "history",
+    "patterns": [
+      "Tell me about history",
+      "What is history?",
+      "History facts",
+      "Why study history?"
+    ],
+    "responses": [
+      "History is learning about events from the past.",
+      "It helps us understand how the world changed over time.",
+      "Studying history can make today easier to understand."
+    ]
+  },
+  {
+    "tag": "geography",
+    "patterns": [
+      "Tell me about geography",
+      "What is geography?",
+      "Geography facts",
+      "Learn geography"
+    ],
+    "responses": [
+      "Geography is the study of places and land features.",
+      "It helps us know about countries, mountains, and oceans.",
+      "Geography can tell you why climate and culture differ."
+    ]
+  },
+  {
+    "tag": "science",
+    "patterns": [
+      "Tell me about science",
+      "What is science?",
+      "Science facts",
+      "Why is science important?"
+    ],
+    "responses": [
+      "Science helps people understand how things work.",
+      "It uses observations, experiments, and ideas.",
+      "Science can answer questions about nature and technology."
+    ]
+  },
+  {
+    "tag": "math",
+    "patterns": [
+      "Tell me about math",
+      "What is math?",
+      "Math questions",
+      "Why study math?"
+    ],
+    "responses": [
+      "Math is the study of numbers, shapes, and patterns.",
+      "It helps solve problems in daily life and science.",
+      "Many careers use math, from engineering to design."
+    ]
+  },
+  {
+    "tag": "animals",
+    "patterns": [
+      "Tell me about animals",
+      "What are animals?",
+      "Animal facts",
+      "Learn about animals"
+    ],
+    "responses": [
+      "Animals are living creatures that move and react to their environment.",
+      "There are many kinds of animals on land, sea, and air.",
+      "People enjoy learning about animals and how they live."
+    ]
+  },
+  {
+    "tag": "cats",
+    "patterns": [
+      "Tell me about cats",
+      "What do cats eat?",
+      "Are cats friendly?",
+      "How do cats behave?"
+    ],
+    "responses": [
+      "Cats are curious and often enjoy gentle petting.",
+      "They like to play, explore, and sometimes nap a lot.",
+      "Many people enjoy cats as calm and smart companions."
+    ]
+  },
+  {
+    "tag": "dogs",
+    "patterns": [
+      "Tell me about dogs",
+      "What do dogs eat?",
+      "Are dogs friendly?",
+      "How do dogs behave?"
+    ],
+    "responses": [
+      "Dogs are loyal and often love to play and learn.",
+      "They can be good family pets and helpers.",
+      "Different dog breeds have different energy levels and needs."
+    ]
+  },
+  {
+    "tag": "books",
+    "patterns": [
+      "Tell me about books",
+      "What is a book?",
+      "Recommend a book",
+      "Book types"
+    ],
+    "responses": [
+      "Books share stories, knowledge, and ideas with readers.",
+      "There are fiction, nonfiction, adventure, and many genres.",
+      "Reading books can be fun and help you learn new things."
+    ]
+  },
+  {
+    "tag": "art",
+    "patterns": [
+      "Tell me about art",
+      "What is art?",
+      "Art styles",
+      "Do you like art?"
+    ],
+    "responses": [
+      "Art can express feelings, ideas, and imagination.",
+      "People use painting, drawing, and music to create art.",
+      "Art is a way to share beauty and stories."
+    ]
+  },
+  {
+    "tag": "jokes",
+    "patterns": [
+      "Tell me a joke",
+      "Do you know jokes?",
+      "Make me laugh",
+      "Joke time"
+    ],
+    "responses": [
+      "Why did the computer go to the doctor? It had a virus!",
+      "I know a funny one: Why did the soccer ball quit? It was tired of being kicked around.",
+      "Here is a joke: What do you call a sleeping bull? A bulldozer!"
+    ]
+  },
+  {
+    "tag": "motivation",
+    "patterns": [
+      "I need motivation",
+      "Give me motivation",
+      "Motivate me",
+      "I need encouragement"
+    ],
+    "responses": [
+      "Keep going, every small step moves you closer to your goal.",
+      "Believe in yourself and keep trying.",
+      "You can do it if you stay focused and positive."
+    ]
+  },
+  {
+    "tag": "confidence",
+    "patterns": [
+      "How can I be confident?",
+      "Tell me about confidence",
+      "Confidence tips",
+      "I need confidence"
+    ],
+    "responses": [
+      "Confidence grows when you practice and trust yourself.",
+      "Start with small wins and remind yourself of your strengths.",
+      "Being kind to yourself helps build real confidence."
+    ]
+  },
+  {
+    "tag": "goals",
+    "patterns": [
+      "How do I set goals?",
+      "Tell me about goals",
+      "Goal setting tips",
+      "What are goals?"
+    ],
+    "responses": [
+      "Good goals are clear, specific, and achievable.",
+      "Write your goals down and review them often.",
+      "Break big goals into smaller steps and celebrate progress."
+    ]
+  },
+  {
+    "tag": "teamwork",
+    "patterns": [
+      "Tell me about teamwork",
+      "What is teamwork?",
+      "Teamwork tips",
+      "Why is teamwork important?"
+    ],
+    "responses": [
+      "Teamwork means working together and helping each other.",
+      "Good teamwork makes tasks easier and more successful.",
+      "Listening and sharing ideas are key to strong teamwork."
+    ]
+  },
+  {
+    "tag": "leadership",
+    "patterns": [
+      "Tell me about leadership",
+      "What is leadership?",
+      "Leadership qualities",
+      "How to lead?"
+    ],
+    "responses": [
+      "A good leader listens, supports, and makes fair decisions.",
+      "Leadership means guiding a group toward a common goal.",
+      "Respect and clear communication help leaders succeed."
+    ]
+  },
+  {
+    "tag": "sportsmanship",
+    "patterns": [
+      "Tell me about sportsmanship",
+      "What is sportsmanship?",
+      "Why is sportsmanship important?",
+      "Sportsmanship examples"
+    ],
+    "responses": [
+      "Sportsmanship means being fair, respectful, and gracious.",
+      "Good players congratulate each other and accept both wins and losses.",
+      "Sportsmanship makes games better for everyone."
+    ]
+  },
+  {
+    "tag": "world_cup",
+    "patterns": [
+      "What is the World Cup?",
+      "Tell me about World Cup",
+      "World Cup facts",
+      "When is the World Cup?"
+    ],
+    "responses": [
+      "The World Cup is a major international sports tournament held every few years.",
+      "It brings teams from many countries together to compete.",
+      "Fans around the world enjoy the excitement of the World Cup."
+    ]
+  },
+  {
+    "tag": "olympics",
+    "patterns": [
+      "What are the Olympics?",
+      "Tell me about the Olympics",
+      "Olympic facts",
+      "When are the Olympics?"
+    ],
+    "responses": [
+      "The Olympics are a global competition featuring many sports.",
+      "Athletes train for years to compete in the Olympics.",
+      "The Olympic spirit celebrates excellence and unity."
+    ]
+  },
+  {
+    "tag": "boxing",
+    "patterns": [
+      "Tell me about boxing",
+      "What is boxing?",
+      "Boxing rules",
+      "How is boxing played?"
+    ],
+    "responses": [
+      "Boxing is a sport where two opponents try to land punches while avoiding being hit.",
+      "Matches happen in rounds inside a ring.",
+      "Boxers wear gloves and follow safety rules during competition."
+    ]
+  },
+  {
+    "tag": "cycling",
+    "patterns": [
+      "Tell me about cycling",
+      "What is cycling?",
+      "Cycling tips",
+      "How do I cycle?"
+    ],
+    "responses": [
+      "Cycling is riding a bicycle for sport or transportation.",
+      "It can improve fitness and be a fun outdoor activity.",
+      "Cycling uses leg strength and balance to move forward."
+    ]
+  },
+  {
+    "tag": "running",
+    "patterns": [
+      "Tell me about running",
+      "What is running?",
+      "Running tips",
+      "How do I run?"
+    ],
+    "responses": [
+      "Running is moving quickly on your feet.",
+      "Many people run for fitness, racing, or fun.",
+      "Good shoes and a warm up help make running safer."
+    ]
+  },
+  {
+    "tag": "swimming",
+    "patterns": [
+      "Tell me about swimming",
+      "What is swimming?",
+      "Swimming tips",
+      "How do I swim?"
+    ],
+    "responses": [
+      "Swimming is moving through water using your arms and legs.",
+      "It is a great low-impact full-body exercise.",
+      "Swimming can be both relaxing and a strong workout."
+    ]
+  },
+  {
+    "tag": "gymnastics",
+    "patterns": [
+      "Tell me about gymnastics",
+      "What is gymnastics?",
+      "Gymnastics skills",
+      "Gymnastics rules"
+    ],
+    "responses": [
+      "Gymnastics includes moves like flips, balance, and strength.",
+      "Athletes perform on beams, bars, and floor routines.",
+      "It requires flexibility, coordination, and practice."
+    ]
+  },
+  {
+    "tag": "hockey",
+    "patterns": [
+      "Tell me about hockey",
+      "What is hockey?",
+      "Hockey rules",
+      "How do you play hockey?"
+    ],
+    "responses": [
+      "Hockey is played on ice or turf with a stick and a puck or ball.",
+      "Teams try to score by sending the puck into the opponent goal.",
+      "Players move quickly and pass to teammates to create shots."
+    ]
+  },
+  {
+    "tag": "golf",
+    "patterns": [
+      "Tell me about golf",
+      "What is golf?",
+      "Golf rules",
+      "How do you play golf?"
+    ],
+    "responses": [
+      "Golf is played by hitting a small ball into holes with clubs.",
+      "Players move from tee to green and count strokes.",
+      "A lower score is better in golf."
+    ]
+  },
+  {
+    "tag": "rugby",
+    "patterns": [
+      "Tell me about rugby",
+      "What is rugby?",
+      "Rugby rules",
+      "How do you play rugby?"
+    ],
+    "responses": [
+      "Rugby is played with an oval ball and teams try to score by grounding it.",
+      "Players pass backwards and tackle opponents to stop progress.",
+      "There are different forms like rugby union and rugby sevens."
+    ]
+  },
+  {
+    "tag": "table_tennis",
+    "patterns": [
+      "Tell me about table tennis",
+      "What is table tennis?",
+      "Ping pong rules",
+      "How do you play table tennis?"
+    ],
+    "responses": [
+      "Table tennis is played on a small table with paddles and a lightweight ball.",
+      "Players hit the ball back and forth over a net.",
+      "Matches are fast and require quick reflexes."
+    ]
+  }
+]
